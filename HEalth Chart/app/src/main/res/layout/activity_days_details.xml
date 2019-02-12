@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dayLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/dayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Day"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/breakfastText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Breakfast:"
+        android:textSize="25sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/breakfastRecylerView"
+        android:layout_width="381dp"
+        android:layout_height="151dp"
+        android:layout_margin="2dp" />
+
+    <TextView
+        android:id="@+id/lunchText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Lunch:"
+        android:textSize="25sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lunchRecylerView"
+        android:layout_width="391dp"
+        android:layout_height="155dp"
+        android:layout_margin="2dp" />
+
+    <TextView
+        android:id="@+id/dinnerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Dinner:"
+        android:textSize="25sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/dinnerRecylerView"
+        android:layout_width="391dp"
+        android:layout_height="155dp"
+        android:layout_margin="2dp" />
+</LinearLayout>

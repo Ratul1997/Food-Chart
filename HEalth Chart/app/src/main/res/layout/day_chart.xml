@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dayLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/dayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Day"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/breakfastText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Breakfast:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/breakfastRecylerView"
+        android:layout_width="391dp"
+        android:layout_height="151dp"
+        android:layout_margin="2dp" />
+
+    <TextView
+        android:id="@+id/lunchText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Lunch:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lunchRecylerView"
+        android:layout_width="391dp"
+        android:layout_height="145dp"
+        android:layout_margin="2dp" />
+
+    <TextView
+        android:id="@+id/dinnerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Dinner:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/dinnerRecylerView"
+        android:layout_width="391dp"
+        android:layout_height="155dp"
+        android:layout_margin="2dp" />
+</LinearLayout>
